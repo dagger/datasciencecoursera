@@ -1,5 +1,6 @@
 
-== Final Project, Getting and Cleaning Data ==
+==Final Project, Getting and Cleaning Data==
+
 the run_analysis.R script will do everything for you, in the following steps:
 * Downloads the data from the internet.
 * Uncompresses the zip archive.
@@ -9,7 +10,7 @@ the run_analysis.R script will do everything for you, in the following steps:
 * Averages the variables, grouped by subject-activity pairs
 * Writes the tidy Data to tidy.txt
 
-== Requirements ==
+==Requirements==
 * Internet connection
 * dplyr library installed on R
 

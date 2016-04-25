@@ -49,4 +49,6 @@ newData <- onlyMeanAndStdDataTest %>%
   group_by(subject, activity) %>%
   summarise_each(funs(mean))
 
+# written to tidy.txt
+write.table(newData, row.names = FALSE, "tidy.txt")
 
