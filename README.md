@@ -11,6 +11,10 @@ the run_analysis.R script will do everything for you, in the following steps:
 * Averages the variables, grouped by subject-activity pairs
 * Writes the tidy Data to tidy.txt
 
+Data
+====
+Use the files features.txt and features_info.txt to understand the features in the generated output.
+
 Requirements
 ============
 * Internet connection
